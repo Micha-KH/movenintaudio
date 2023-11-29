@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #121933;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  color: #a292bf;
+  padding: 15px;
+  border-radius: 96px;
+  background: #16141c;
+  box-shadow: inset 19px 19px 38px #767082, inset -19px -19px 38px #e7e1d8;
+}
+header {
+    background-color: #767082;
+  width: 100vw;
+  padding: 2rem 2rem;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #e7e1d8;
+  padding-right: 9px;
+  font-size: 0.8rem;
+}
+
+div.container {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  border: 10px solid #e7e1d8;
+  margin: 0 auto;
+}
+main {
+  background-color: #e7e1d8;
+}
+img {
+  max-width: 100%;
+}
+
+div.image {
+  height: auto;
+  max-width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: #dbbca8;
+}
+
+div.text {
+  border: 5px solid #e7e1d8;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.text p {
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+footer {
+  background-color: #463f52;
+  height: 5vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+h2 {
+  color: #e7e1d8;
+}
+
+@media screen and (min-width: 576px) {
+  div.container {
+    display: flex;
+  }
+  nav a {
+    font-size: larger;
+  }
+
+  div.image {
+    max-width: 49%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  div.text {
+    max-width: 49%;
+    vertical-align: middle;
+    /* padding-top: 5vh; */
+  }
+  footer {
+    height: 12vh;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media all and (min-width: 700px) {
+  body {
+    font-size: 1.1rem;
+  }
+}
+@media all and (min-width: 900px) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+@media all and (min-width: 1000px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+@media all and (min-width: 1200px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  div.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 33vw;
+    border: 0;
+    margin: 0;
+  }
+
+  main {
+    background-image: linear-gradient(225deg, #76708251, #121933),
+      url(./john-de-jong-GGoy4as1kZg-unsplash.jpg);
+    background-size: cover;
+  }
+
+  /* div:first-child {
+    margin-left: 0.7vw;
+  } */
+
+  div.outer {
+    display: flex;
+  }
+  div.image {
+    /* display: flex; */
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+  img {
+    width: 28vw;
+    max-height: auto;
+  }
+  div.text {
+    max-width: 95%;
+    height: auto;
+    margin: 0 auto;
+    border: 0;
+  }
+  div.text p {
+    color: #e7e1d8;
+  }
+
+  footer {
+    
+    height: 15vh;
+    padding-bottom: 1rem;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+@media all and (min-width: 1800px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
